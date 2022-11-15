@@ -24,6 +24,8 @@ app = dash.Dash(
     meta_tags=[dict(name="viewport", content="width=device-width, initial-scale=1.0")],
 )
 
+server = app.server
+
 app.layout = Layout(symbol_dict).layout()
 
 
